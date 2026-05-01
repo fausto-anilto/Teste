@@ -3,14 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML com Tailwind</title>
+    <title>Climavitoria - Climatização Residencial</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
-        <h1 class="text-5xl font-bold text-white text-center">
-            Olá, Tailwind CSS! 🎨
-        </h1>
-    </div>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">❄️ Climavitoria</h1>
+            <nav class="space-x-6">
+                <a href="#servicos" class="hover:text-blue-200 transition">Serviços</a>
+                <a href="#contato" class="hover:text-blue-200 transition">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-4">Clima Perfeito para Sua Casa</h2>
+            <p class="text-xl mb-8">Soluções de climatização residencial com tecnologia de ponta e eficiência energética</p>
+            <button class="bg-white text-blue-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition text-lg">
+                Solicitar Orçamento
+            </button>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center mb-12 text-gray-800">Nossos Serviços</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Serviço 1 -->
+                <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-4xl mb-4">🌬️</div>
+                    <h4 class="text-2xl font-bold mb-3 text-blue-600">Instalação</h4>
+                    <p class="text-gray-600">Instalação profissional de ar condicionado com garantia e eficiência máxima</p>
+                </div>
+                <!-- Serviço 2 -->
+                <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-4xl mb-4">🔧</div>
+                    <h4 class="text-2xl font-bold mb-3 text-blue-600">Manutenção</h4>
+                    <p class="text-gray-600">Manutenção preventiva e corretiva para máximo desempenho do seu sistema</p>
+                </div>
+                <!-- Serviço 3 -->
+                <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
+                    <div class="text-4xl mb-4">⚡</div>
+                    <h4 class="text-2xl font-bold mb-3 text-blue-600">Economia</h4>
+                    <p class="text-gray-600">Sistemas eficientes que reduzem sua conta de energia até 40%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center mb-12 text-gray-800">Por Que Escolher a Climavitoria?</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="flex items-start space-x-4">
+                    <span class="text-2xl">✅</span>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Equipe Especializada</h4>
+                        <p class="text-gray-600">Profissionais certificados com mais de 10 anos de experiência</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <span class="text-2xl">✅</span>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Atendimento 24/7</h4>
+                        <p class="text-gray-600">Sempre disponível para suas emergências e dúvidas</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <span class="text-2xl">✅</span>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Garantia Estendida</h4>
+                        <p class="text-gray-600">Proteção completa para seu investimento em climatização</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <span class="text-2xl">✅</span>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Melhor Preço</h4>
+                        <p class="text-gray-600">Orçamentos competitivos com opções de parcelamento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contato" class="bg-blue-600 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-4xl font-bold mb-4">Transforme o Clima da Sua Casa</h3>
+            <p class="text-xl mb-8">Entre em contato conosco para uma avaliação gratuita</p>
+            <div class="space-y-4">
+                <p class="text-lg">📞 <strong>(27) 3333-3333</strong></p>
+                <p class="text-lg">📧 <strong>contato@climavitoria.com</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Climavitoria - Climatização Residencial. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
