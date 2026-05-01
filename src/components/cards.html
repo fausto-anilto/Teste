@@ -1,0 +1,137 @@
+<!-- Card Components - Componentes Reutilizáveis de Cards -->
+
+<style>
+  .card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Variantes */
+  .card-primary {
+    background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+    border-color: #7dd3fc;
+  }
+
+  .card-dark {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: white;
+    border-color: #374151;
+  }
+
+  .card-flat {
+    box-shadow: none;
+    border-color: #d1d5db;
+  }
+
+  /* Card Header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-header-icon {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  /* Card Body */
+  .card-body {
+    margin: 1rem 0;
+  }
+
+  .card-body p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    opacity: 0.8;
+  }
+
+  /* Card Footer */
+  .card-footer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .card-footer a {
+    color: #0ea5e9;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .card-footer a:hover {
+    color: #0369a1;
+  }
+</style>
+
+<!-- Card Básico -->
+<div class="card">
+  <div class="card-header">
+    <div class="card-header-icon">❄️</div>
+    <h3 class="card-title">Instalação</h3>
+  </div>
+  <div class="card-body">
+    <p>Instalação profissional com garantia e máxima eficiência energética.</p>
+  </div>
+  <div class="card-footer">
+    <a href="#saibamais">Saiba mais →</a>
+  </div>
+</div>
+
+<!-- Card Destaque (Primary) -->
+<div class="card card-primary">
+  <div class="card-header">
+    <div class="card-header-icon">⭐</div>
+    <h3 class="card-title">Serviço Premium</h3>
+  </div>
+  <div class="card-body">
+    <p>Atendimento 24/7 com garantia estendida e prioridade máxima.</p>
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-primary btn-sm">Contratar</button>
+  </div>
+</div>
+
+<!-- Card Escuro (Dark) -->
+<div class="card card-dark">
+  <div class="card-header">
+    <div class="card-header-icon">💰</div>
+    <h3 class="card-title">Economia</h3>
+  </div>
+  <div class="card-body">
+    <p>Reduz sua conta de energia em até 40% com nossos sistemas otimizados.</p>
+  </div>
+  <div class="card-footer">
+    <strong style="font-size: 1.5rem; color: #00d9ff;">-40%</strong>
+  </div>
+</div>
+
+<!-- Card Flat (Sem sombra) -->
+<div class="card card-flat">
+  <div class="card-header">
+    <div class="card-header-icon">🔧</div>
+    <h3 class="card-title">Manutenção</h3>
+  </div>
+  <div class="card-body">
+    <p>Manutenção preventiva e corretiva para máximo desempenho.</p>
+  </div>
+  <div class="card-footer">
+    <a href="#contato">Agendar →</a>
+  </div>
+</div>

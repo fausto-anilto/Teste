@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Climavitoria - Climatização Residencial</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
 </head>
 <body class="bg-white">
     <!-- Header -->
     <header class="bg-blue-600 text-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
-            <h1 class="text-3xl font-bold">❄️ Climavitoria</h1>
+            <div class="flex items-center gap-3">
+                <svg class="w-8 h-8" data-lucide="snowflake"></svg>
+                <h1 class="text-3xl font-bold">Climavitoria</h1>
+            </div>
             <nav class="space-x-6">
                 <a href="#servicos" class="hover:text-blue-200 transition">Serviços</a>
                 <a href="#contato" class="hover:text-blue-200 transition">Contato</a>
@@ -36,19 +40,25 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Serviço 1 -->
                 <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
-                    <div class="text-4xl mb-4">🌬️</div>
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-10 h-10 text-blue-600" data-lucide="wind"></svg>
+                    </div>
                     <h4 class="text-2xl font-bold mb-3 text-blue-600">Instalação</h4>
                     <p class="text-gray-600">Instalação profissional de ar condicionado com garantia e eficiência máxima</p>
                 </div>
                 <!-- Serviço 2 -->
                 <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
-                    <div class="text-4xl mb-4">🔧</div>
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-10 h-10 text-blue-600" data-lucide="wrench"></svg>
+                    </div>
                     <h4 class="text-2xl font-bold mb-3 text-blue-600">Manutenção</h4>
                     <p class="text-gray-600">Manutenção preventiva e corretiva para máximo desempenho do seu sistema</p>
                 </div>
                 <!-- Serviço 3 -->
                 <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition">
-                    <div class="text-4xl mb-4">⚡</div>
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-10 h-10 text-blue-600" data-lucide="zap"></svg>
+                    </div>
                     <h4 class="text-2xl font-bold mb-3 text-blue-600">Economia</h4>
                     <p class="text-gray-600">Sistemas eficientes que reduzem sua conta de energia até 40%</p>
                 </div>
@@ -62,28 +72,28 @@
             <h3 class="text-4xl font-bold text-center mb-12 text-gray-800">Por Que Escolher a Climavitoria?</h3>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="flex items-start space-x-4">
-                    <span class="text-2xl">✅</span>
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" data-lucide="check-circle-2"></svg>
                     <div>
                         <h4 class="font-bold text-lg mb-2">Equipe Especializada</h4>
                         <p class="text-gray-600">Profissionais certificados com mais de 10 anos de experiência</p>
                     </div>
                 </div>
                 <div class="flex items-start space-x-4">
-                    <span class="text-2xl">✅</span>
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" data-lucide="check-circle-2"></svg>
                     <div>
                         <h4 class="font-bold text-lg mb-2">Atendimento 24/7</h4>
                         <p class="text-gray-600">Sempre disponível para suas emergências e dúvidas</p>
                     </div>
                 </div>
                 <div class="flex items-start space-x-4">
-                    <span class="text-2xl">✅</span>
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" data-lucide="check-circle-2"></svg>
                     <div>
                         <h4 class="font-bold text-lg mb-2">Garantia Estendida</h4>
                         <p class="text-gray-600">Proteção completa para seu investimento em climatização</p>
                     </div>
                 </div>
                 <div class="flex items-start space-x-4">
-                    <span class="text-2xl">✅</span>
+                    <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" data-lucide="check-circle-2"></svg>
                     <div>
                         <h4 class="font-bold text-lg mb-2">Melhor Preço</h4>
                         <p class="text-gray-600">Orçamentos competitivos com opções de parcelamento</p>
@@ -99,8 +109,8 @@
             <h3 class="text-4xl font-bold mb-4">Transforme o Clima da Sua Casa</h3>
             <p class="text-xl mb-8">Entre em contato conosco para uma avaliação gratuita</p>
             <div class="space-y-4">
-                <p class="text-lg">📞 <strong>(27) 3333-3333</strong></p>
-                <p class="text-lg">📧 <strong>contato@climavitoria.com</strong></p>
+                <p class="text-lg flex items-center justify-center gap-2"><svg class="w-5 h-5" data-lucide="phone"></svg> <strong>(27) 3333-3333</strong></p>
+                <p class="text-lg flex items-center justify-center gap-2"><svg class="w-5 h-5" data-lucide="mail"></svg> <strong>contato@climavitoria.com</strong></p>
             </div>
         </div>
     </section>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - Climavitoria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-6">
+            <h1 class="text-3xl font-bold text-primary-600">❄️ Design System - Climavitoria</h1>
+            <p class="text-gray-600 mt-2">Sistema visual corporativo profissional para climatização residencial</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- ======================== PALETA DE CORES ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">🎨 Paleta de Cores</h2>
+            
+            <!-- Cores Primárias -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-gray-800 mb-6">Primária - Azul (Ar Frio)</h3>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-primary-50 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">50</p>
+                        <p class="text-xs text-gray-500">#f0f9ff</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-primary-100 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">100</p>
+                        <p class="text-xs text-gray-500">#e0f2fe</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-primary-300 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">300</p>
+                        <p class="text-xs text-gray-500">#7dd3fc</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-primary-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">500 ⭐</p>
+                        <p class="text-xs text-gray-500">#0ea5e9</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-primary-700 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">700</p>
+                        <p class="text-xs text-gray-500">#0369a1</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 mt-4">
+                    <strong>Uso:</strong> CTA, headers, elementos interativos. Representa confiança e frescor.
+                </p>
+            </div>
+
+            <!-- Cores Secundárias -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-gray-800 mb-6">Secundária - Indigo (Complementar)</h3>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-secondary-100 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">100</p>
+                        <p class="text-xs text-gray-500">#e0e7ff</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-secondary-300 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">300</p>
+                        <p class="text-xs text-gray-500">#a5b4fc</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-secondary-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">500</p>
+                        <p class="text-xs text-gray-500">#6366f1</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-secondary-700 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">700</p>
+                        <p class="text-xs text-gray-500">#4338ca</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-secondary-900 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">900</p>
+                        <p class="text-xs text-gray-500">#312e81</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 mt-4">
+                    <strong>Uso:</strong> Botões secundários, accents, destaque em seções específicas.
+                </p>
+            </div>
+
+            <!-- Cores de Status -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-6">Status & Feedback</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-green-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">Sucesso</p>
+                        <p class="text-xs text-gray-500">#10b981</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-amber-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-gray-700">Aviso</p>
+                        <p class="text-xs text-gray-500">#f59e0b</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-red-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">Erro</p>
+                        <p class="text-xs text-gray-500">#ef4444</p>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="w-full h-24 bg-blue-500 rounded-lg border border-gray-200"></div>
+                        <p class="text-sm font-medium text-white">Informação</p>
+                        <p class="text-xs text-gray-500">#3b82f6</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== TIPOGRAFIA ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">📝 Tipografia</h2>
+            
+            <div class="space-y-8 bg-white p-8 rounded-lg border border-gray-200">
+                <!-- Headings -->
+                <div>
+                    <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-4">Headings</h4>
+                    <div class="space-y-6">
+                        <div>
+                            <p class="text-display-lg font-bold text-gray-900">Display Large - 3.5rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, Bold. Para seções principais.</p>
+                        </div>
+                        <div>
+                            <p class="text-display-md font-bold text-gray-900">Display Medium - 3rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, Bold. Para hero sections.</p>
+                        </div>
+                        <div>
+                            <p class="text-h1 font-bold text-gray-900">Heading 1 - 2.25rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, Bold. Títulos principais.</p>
+                        </div>
+                        <div>
+                            <p class="text-h2 font-bold text-gray-900">Heading 2 - 1.875rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, Bold. Subtítulos.</p>
+                        </div>
+                        <div>
+                            <p class="text-h3 font-semibold text-gray-900">Heading 3 - 1.5rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, SemiBold. Seções.</p>
+                        </div>
+                        <div>
+                            <p class="text-h4 font-semibold text-gray-900">Heading 4 - 1.25rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Poppins, SemiBold. Cards e subsections.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-200">
+
+                <!-- Body -->
+                <div>
+                    <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-4">Body Text</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-body-lg text-gray-700">Body Large - 1.125rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Para destaque em parágrafos.</p>
+                        </div>
+                        <div>
+                            <p class="text-body-md text-gray-700">Body Medium - 1rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Texto padrão do site.</p>
+                        </div>
+                        <div>
+                            <p class="text-body-sm text-gray-600">Body Small - 0.875rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Para descrições secundárias.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-200">
+
+                <!-- Labels -->
+                <div>
+                    <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wide mb-4">Labels</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-label font-medium text-gray-700">Label - 0.875rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Para inputs, botões, tags.</p>
+                        </div>
+                        <div>
+                            <p class="text-caption font-medium text-gray-600">Caption - 0.75rem</p>
+                            <p class="text-xs text-gray-500 mt-2">Para hints, helper text, timestamps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== BOTÕES ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">🔘 Botões</h2>
+
+            <div class="space-y-12">
+                <!-- Primary Buttons -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6">Botão Primário</h3>
+                    <div class="flex flex-wrap gap-4 bg-white p-6 rounded-lg border border-gray-200">
+                        <button class="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
+                            Solicitar Orçamento
+                        </button>
+                        <button class="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors opacity-50 cursor-not-allowed" disabled>
+                            Desabilitado
+                        </button>
+                        <button class="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors flex items-center gap-2">
+                            <span>💬</span> Com Ícone
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-4">
+                        <strong>Uso:</strong> CTA principal, ações importantes. <br>
+                        <strong>Estados:</strong> Default, Hover, Active, Disabled
+                    </p>
+                </div>
+
+                <!-- Secondary Buttons -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6">Botão Secundário</h3>
+                    <div class="flex flex-wrap gap-4 bg-white p-6 rounded-lg border border-gray-200">
+                        <button class="px-6 py-3 bg-primary-100 text-primary-700 font-semibold rounded-lg hover:bg-primary-200 transition-colors border border-primary-300">
+                            Saiba Mais
+                        </button>
+                        <button class="px-6 py-3 bg-secondary-100 text-secondary-700 font-semibold rounded-lg hover:bg-secondary-200 transition-colors border border-secondary-300">
+                            Explorar
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-4">
+                        <strong>Uso:</strong> Ações secundárias, alternativas ao primário.
+                    </p>
+                </div>
+
+                <!-- Ghost Buttons -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6">Botão Ghost (Outline)</h3>
+                    <div class="flex flex-wrap gap-4 bg-white p-6 rounded-lg border border-gray-200">
+                        <button class="px-6 py-3 text-primary-600 font-semibold rounded-lg border-2 border-primary-600 hover:bg-primary-50 transition-colors">
+                            Contato
+                        </button>
+                        <button class="px-6 py-3 text-gray-700 font-semibold rounded-lg border-2 border-gray-300 hover:bg-gray-50 transition-colors">
+                            Voltar
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-4">
+                        <strong>Uso:</strong> Links que parecem botões, ações terciárias.
+                    </p>
+                </div>
+
+                <!-- Size Variants -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-6">Variações de Tamanho</h3>
+                    <div class="flex flex-wrap gap-4 items-center bg-white p-6 rounded-lg border border-gray-200">
+                        <button class="px-4 py-2 bg-primary-600 text-white text-sm font-semibold rounded-lg hover:bg-primary-700">
+                            Small
+                        </button>
+                        <button class="px-6 py-3 bg-primary-600 text-white text-base font-semibold rounded-lg hover:bg-primary-700">
+                            Medium
+                        </button>
+                        <button class="px-8 py-4 bg-primary-600 text-white text-lg font-semibold rounded-lg hover:bg-primary-700">
+                            Large
+                        </button>
+                        <button class="w-full px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700">
+                            Full Width
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== CARDS ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">🎁 Cards</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Card Default -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-4xl mb-4">❄️</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Instalação</h3>
+                    <p class="text-gray-600 text-sm">
+                        Instalação profissional com garantia e máxima eficiência energética.
+                    </p>
+                    <button class="mt-4 text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        Saiba mais →
+                    </button>
+                </div>
+
+                <!-- Card Highlight -->
+                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-lg border border-primary-300 p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-4xl mb-4">⭐</div>
+                    <h3 class="text-xl font-semibold text-primary-900 mb-3">Serviço Premium</h3>
+                    <p class="text-primary-800 text-sm">
+                        Atendimento 24/7 com garantia estendida e prioridade.
+                    </p>
+                    <button class="mt-4 px-4 py-2 bg-primary-600 text-white rounded font-semibold hover:bg-primary-700 transition-colors text-sm">
+                        Contratar
+                    </button>
+                </div>
+
+                <!-- Card Dark -->
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow text-white">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold mb-3">Eficiência</h3>
+                    <p class="text-gray-300 text-sm">
+                        Reduz sua conta de energia em até 40% com nossos sistemas.
+                    </p>
+                    <div class="mt-4 text-2xl font-bold text-primary-400">-40%</div>
+                </div>
+            </div>
+
+            <p class="text-sm text-gray-600 bg-white p-6 rounded-lg border border-gray-200">
+                <strong>Variações:</strong> Default, Highlighted, Dark, Flat, Image Cover<br>
+                <strong>Espaçamento:</strong> 1.5rem (24px) de padding<br>
+                <strong>Border Radius:</strong> 1rem (16px)<br>
+                <strong>Shadow:</strong> md no hover
+            </p>
+        </section>
+
+        <!-- ======================== FORMULÁRIOS ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">📋 Formulários</h2>
+
+            <div class="bg-white rounded-lg border border-gray-200 p-8 space-y-6">
+                <!-- Input Text -->
+                <div>
+                    <label class="block text-label font-medium text-gray-700 mb-2">Nome Completo</label>
+                    <input 
+                        type="text" 
+                        placeholder="João Silva"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
+                    >
+                    <p class="text-caption text-gray-500 mt-2">Campo obrigatório</p>
+                </div>
+
+                <!-- Input Email -->
+                <div>
+                    <label class="block text-label font-medium text-gray-700 mb-2">Email</label>
+                    <input 
+                        type="email"
+                        placeholder="joao@exemplo.com"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
+                    >
+                </div>
+
+                <!-- Select -->
+                <div>
+                    <label class="block text-label font-medium text-gray-700 mb-2">Tipo de Serviço</label>
+                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all bg-white">
+                        <option>Selecione um serviço</option>
+                        <option>Instalação</option>
+                        <option>Manutenção</option>
+                        <option>Limpeza</option>
+                    </select>
+                </div>
+
+                <!-- Textarea -->
+                <div>
+                    <label class="block text-label font-medium text-gray-700 mb-2">Mensagem</label>
+                    <textarea 
+                        placeholder="Descreva sua necessidade..."
+                        rows="4"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all resize-none"
+                    ></textarea>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="flex items-center">
+                    <input 
+                        type="checkbox" 
+                        id="terms"
+                        class="w-5 h-5 text-primary-600 rounded border-gray-300 focus:ring-2 focus:ring-primary-500"
+                    >
+                    <label for="terms" class="ml-3 text-body-sm text-gray-700">
+                        Concordo com os termos e condições
+                    </label>
+                </div>
+
+                <!-- Button Submit -->
+                <button class="w-full px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors">
+                    Enviar Solicitação
+                </button>
+
+                <!-- States Info -->
+                <div class="pt-6 border-t border-gray-200">
+                    <p class="text-sm text-gray-600">
+                        <strong>Estados:</strong> Default, Hover, Focus, Disabled, Error<br>
+                        <strong>Focus:</strong> Ring 2px primary-500<br>
+                        <strong>Error:</strong> Border e text em red-500
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== NAVEGAÇÃO ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">🧭 Navegação</h2>
+
+            <!-- Navbar -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-gray-800 mb-6">Header / Navbar</h3>
+                <div class="bg-primary-600 text-white rounded-lg overflow-hidden">
+                    <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+                        <div class="text-2xl font-bold">❄️ Climavitoria</div>
+                        <nav class="hidden md:flex space-x-8">
+                            <a href="#" class="hover:text-primary-200 transition-colors">Serviços</a>
+                            <a href="#" class="hover:text-primary-200 transition-colors">Sobre</a>
+                            <a href="#" class="hover:text-primary-200 transition-colors">Contato</a>
+                        </nav>
+                        <button class="px-6 py-2 bg-white text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors">
+                            Orçamento
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-6">Footer</h3>
+                <div class="bg-gray-900 text-white rounded-lg overflow-hidden">
+                    <div class="max-w-7xl mx-auto px-6 py-12">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                            <div>
+                                <h4 class="font-semibold mb-4">Empresa</h4>
+                                <ul class="space-y-2 text-gray-400 text-sm">
+                                    <li><a href="#" class="hover:text-white transition-colors">Sobre Nós</a></li>
+                                    <li><a href="#" class="hover:text-white transition-colors">Missão</a></li>
+                                    <li><a href="#" class="hover:text-white transition-colors">Valores</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-4">Serviços</h4>
+                                <ul class="space-y-2 text-gray-400 text-sm">
+                                    <li><a href="#" class="hover:text-white transition-colors">Instalação</a></li>
+                                    <li><a href="#" class="hover:text-white transition-colors">Manutenção</a></li>
+                                    <li><a href="#" class="hover:text-white transition-colors">Suporte</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-4">Contato</h4>
+                                <p class="text-gray-400 text-sm">📞 (27) 3333-3333</p>
+                                <p class="text-gray-400 text-sm">📧 contato@climavitoria.com</p>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                            <p>&copy; 2024 Climavitoria. Todos os direitos reservados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== ESPAÇAMENTO ======================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">📏 Espaçamento & Grid</h2>
+
+            <div class="bg-white rounded-lg border border-gray-200 p-8">
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Escala de Espaçamento (4px base)</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">xs (4px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 4px;"></div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">sm (8px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 8px;"></div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">md (16px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 16px;"></div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">lg (24px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 24px;"></div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">xl (32px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 32px;"></div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="w-24 text-sm font-medium text-gray-700">2xl (40px)</span>
+                            <div class="h-3 bg-primary-500 rounded" style="width: 40px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-4">Border Radius</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary-500 rounded mx-auto mb-2"></div>
+                            <p class="text-xs font-medium text-gray-700">sm (8px)</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary-500 rounded-md mx-auto mb-2"></div>
+                            <p class="text-xs font-medium text-gray-700">md (12px)</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary-500 rounded-lg mx-auto mb-2"></div>
+                            <p class="text-xs font-medium text-gray-700">lg (16px)</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-primary-500 rounded-full mx-auto mb-2"></div>
+                            <p class="text-xs font-medium text-gray-700">full (circle)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================== FOOTER DESIGN SYSTEM ======================== -->
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-gray-400">Design System Climavitoria v1.0 — Corporativo Profissional</p>
+            <p class="text-xs text-gray-500 mt-2">Base: Tailwind CSS | Colors: Azul + Cyan | Typography: Inter + Poppins</p>
+        </div>
+    </footer>
+</body>
+</html>
