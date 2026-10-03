@@ -1,4 +1,4 @@
-# 📚 Guia de Referência Rápida — Design System Climavitoria
+# 📚 Guia de Referência Rápida — Design System Vitória Clima
 
 ## 🎨 Cores Principais
 

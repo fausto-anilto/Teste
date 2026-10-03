@@ -56,7 +56,7 @@ module.exports = {
         error: '#ef4444',    // Vermelho
         info: '#3b82f6',     // Azul informativo
 
-        // Cores Climavitoria
+        // Cores Vitória Clima
         brand: {
           light: '#e0f2fe',    // Azul claro (backgrounds)
           main: '#0ea5e9',     // Azul principal

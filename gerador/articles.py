@@ -1,0 +1,170 @@
+"""Artigos do blog Vitória Clima.
+
+Regra de conteúdo: texto geral e útil, sem valores, normas ou medidas técnicas que
+precisem de fonte oficial. Onde há estimativa, o texto diz que é estimativa e remete
+ao manual do fabricante e à avaliação do local.
+"""
+
+ARTICLES = [
+    {
+        "slug": "quanto-custa-instalar-ar-condicionado-split",
+        "title": "Quanto custa instalar um ar-condicionado split?",
+        "seo_title": "Quanto Custa Instalar Ar-Condicionado Split",
+        "crumb": "Quanto custa instalar",
+        "desc": "O que faz o preço da instalação de ar-condicionado split variar e como comparar orçamentos com segurança na Grande Vitória.",
+        "icon": "gauge", "read": 4,
+        "cta_title": "Quer um orçamento para o seu imóvel?",
+        "sections": [
+            ("Por que não existe um preço único", "<p>A instalação de um split parece sempre a mesma, mas o trabalho muda bastante de um imóvel para outro. Dois apartamentos no mesmo prédio podem ter custos diferentes porque o local da condensadora, o caminho da tubulação e o dreno são diferentes.</p><p>Por isso, desconfie de preço fechado sem nenhuma pergunta sobre o imóvel. Um orçamento sério começa com informações do local.</p>"),
+            ("O que costuma influenciar o valor", "<ul><li><b>Distância entre as unidades:</b> quanto maior o trajeto da tubulação, mais material e mão de obra.</li><li><b>Dificuldade de acesso:</b> fachada alta, andaime ou cadeira suspensa mudam o serviço.</li><li><b>Infraestrutura existente:</b> tubulação, dreno e ponto elétrico prontos ou por fazer.</li><li><b>Furos e acabamento:</b> parede de concreto, calhas e canaletas.</li><li><b>Quantidade de aparelhos:</b> instalar vários na mesma visita costuma ser mais organizado.</li><li><b>Tipo e capacidade do aparelho:</b> alguns modelos pedem cuidados específicos.</li></ul>"),
+            ("Como comparar orçamentos", "<p>Compare o que está incluído, não só o total. Pergunte se o valor cobre suporte da condensadora, tubulação, cabos, dreno, mão de obra e teste de funcionamento. Veja também como ficam as condições em caso de problema depois da instalação.</p><p>Na Vitória Clima, o valor final sai depois da avaliação do local, para refletir o que o seu imóvel realmente exige.</p>"),
+        ],
+        "faq": [
+            ("A visita para orçamento tem custo?", "A avaliação do local é gratuita na Vitória Clima."),
+            ("Posso comprar o aparelho separado?", "Pode. Converse antes pelo WhatsApp para conferir se o modelo e a capacidade fazem sentido para o ambiente."),
+        ],
+        "related": ["etapas-da-instalacao-de-ar-condicionado-split", "qual-btu-escolher-ar-condicionado", "instalar-ar-condicionado-em-apartamento"],
+    },
+    {
+        "slug": "qual-btu-escolher-ar-condicionado",
+        "title": "Qual BTU escolher para o seu ar-condicionado?",
+        "seo_title": "Qual BTU de Ar-Condicionado Escolher",
+        "crumb": "Qual BTU escolher",
+        "desc": "Entenda como escolher a capacidade em BTUs do ar-condicionado considerando área, sol, pessoas e equipamentos do ambiente.",
+        "icon": "gauge", "read": 4,
+        "cta_title": "Quer ajuda para escolher a capacidade certa?",
+        "cta_msg": "Olá! Preciso de ajuda para escolher a capacidade (BTUs) do ar-condicionado.",
+        "sections": [
+            ("O que é BTU", "<p>BTU/h indica a capacidade de refrigeração do aparelho. Um aparelho com capacidade abaixo da necessária trabalha o tempo todo e não resfria bem. Um acima do necessário liga e desliga com frequência, o que pode prejudicar o conforto e o consumo.</p>"),
+            ("O que entra na conta", "<ul><li><b>Área do ambiente</b> e altura do teto.</li><li><b>Incidência de sol:</b> janelas grandes voltadas para o sol da tarde pedem mais capacidade.</li><li><b>Número de pessoas</b> que ficam no ambiente.</li><li><b>Equipamentos que geram calor,</b> como computadores, TV e eletrodomésticos.</li><li><b>Andar e cobertura:</b> o último andar costuma receber mais calor do telhado.</li></ul>"),
+            ("Uma referência para começar", "<p>Uma referência comum de mercado para ambientes residenciais é partir de cerca de 600 BTU/h por metro quadrado e depois ajustar para mais conforme sol, pessoas e equipamentos. É apenas uma estimativa inicial, e não substitui o cálculo de carga térmica nem a avaliação do local.</p><div class=\"note\">Em ambientes muito ensolarados ou com muita gente, a escolha pede mais atenção. Nesses casos, vale confirmar a capacidade antes de comprar.</div>"),
+            ("Antes de comprar", "<p>Meça o ambiente, anote a posição das janelas e conte quantas pessoas costumam ficar nele. Com essas informações, a escolha fica bem mais segura. Se preferir, mande os dados pelo WhatsApp e ajudamos a conferir.</p>"),
+        ],
+        "faq": [
+            ("Um aparelho maior sempre é melhor?", "Não. Capacidade acima da necessária pode fazer o aparelho ligar e desligar com frequência, reduzindo o conforto. O ideal é a capacidade adequada ao ambiente."),
+            ("Posso usar um aparelho para dois cômodos?", "Em geral, um split atende bem um ambiente. Para cômodos separados por paredes e portas, o mais indicado é avaliar cada um."),
+        ],
+        "related": ["split-inverter-ou-convencional", "quanto-custa-instalar-ar-condicionado-split", "onde-instalar-evaporadora-e-condensadora"],
+    },
+    {
+        "slug": "split-inverter-ou-convencional",
+        "title": "Split inverter ou convencional: qual escolher?",
+        "seo_title": "Split Inverter ou Convencional: Qual Escolher",
+        "crumb": "Inverter ou convencional",
+        "desc": "Diferenças entre ar-condicionado split inverter e convencional, e como decidir de acordo com o seu uso na Grande Vitória.",
+        "icon": "wind", "read": 3,
+        "cta_title": "Em dúvida entre inverter e convencional?",
+        "cta_msg": "Olá! Estou em dúvida entre ar-condicionado inverter e convencional.",
+        "sections": [
+            ("Como cada um funciona", "<p>No split convencional, o compressor liga em potência total e desliga quando a temperatura é atingida, repetindo o ciclo. No inverter, o compressor varia a velocidade e mantém a temperatura de forma mais constante.</p>"),
+            ("Principais diferenças", "<ul><li><b>Conforto:</b> o inverter tende a manter a temperatura mais estável e a fazer menos ruído.</li><li><b>Consumo:</b> o inverter costuma ser mais eficiente, principalmente em uso frequente.</li><li><b>Preço de compra:</b> o inverter geralmente custa mais no início.</li><li><b>Reparo:</b> em caso de defeito na parte eletrônica, o conserto pode ser mais específico.</li></ul>"),
+            ("Qual faz mais sentido para você", "<p>Para aparelhos usados muitas horas por dia, como em quartos e home office, o inverter costuma compensar a diferença de preço ao longo do tempo. Para uso esporádico, como em um cômodo pouco usado, o convencional pode atender bem. A decisão depende do seu padrão de uso e do orçamento, e a melhor escolha é a que cabe nos dois.</p>"),
+        ],
+        "faq": [
+            ("O inverter reduz mesmo a conta de luz?", "Em geral é mais eficiente que o convencional, mas o resultado depende do uso, da capacidade escolhida e da instalação."),
+            ("A instalação é diferente?", "O processo é parecido, mas cada fabricante tem exigências no manual. A instalação deve segui-lo."),
+        ],
+        "related": ["qual-btu-escolher-ar-condicionado", "quanto-custa-instalar-ar-condicionado-split", "manutencao-e-limpeza-do-ar-condicionado"],
+    },
+    {
+        "slug": "etapas-da-instalacao-de-ar-condicionado-split",
+        "title": "Etapas da instalação de um ar-condicionado split",
+        "seo_title": "Etapas da Instalação de Ar-Condicionado Split",
+        "crumb": "Etapas da instalação",
+        "desc": "Veja o passo a passo de uma instalação de ar-condicionado split, da avaliação do local ao teste final de funcionamento.",
+        "icon": "wrench", "read": 4,
+        "cta_title": "Quer agendar a avaliação do seu local?",
+        "sections": [
+            ("1. Avaliação do local", "<p>Antes de furar qualquer parede, define-se onde ficam a evaporadora (unidade interna) e a condensadora (unidade externa), por onde passa a tubulação e como a água do dreno será escoada. Também se verifica a parte elétrica.</p>"),
+            ("2. Fixação das unidades", "<p>A evaporadora é fixada na parede interna por um suporte. A condensadora vai em suportes na parte externa, em local com espaço livre para circulação de ar e acesso para manutenção.</p>"),
+            ("3. Tubulação, cabos e dreno", "<p>Feitos os furos, passam-se a tubulação de cobre isolada, os cabos de interligação e a mangueira de dreno. O dreno precisa de caimento para a água sair sem retorno.</p>"),
+            ("4. Interligação e preparo da linha", "<p>As unidades são interligadas e a tubulação é preparada seguindo o manual do fabricante, que traz as orientações específicas de cada modelo.</p>"),
+            ("5. Teste e orientação", "<p>Com tudo ligado, o aparelho é testado: resfriamento, funcionamento do dreno, ruídos e ligação elétrica. Por fim, explica-se o uso do controle e a limpeza dos filtros.</p>"),
+        ],
+        "faq": [
+            ("Quanto tempo leva a instalação?", "Depende da quantidade de aparelhos e da infraestrutura do local. O prazo é combinado na avaliação."),
+            ("Preciso estar em casa?", "É recomendável, para definir os pontos de instalação e receber a orientação de uso no final."),
+        ],
+        "related": ["onde-instalar-evaporadora-e-condensadora", "instalar-ar-condicionado-em-apartamento", "quanto-custa-instalar-ar-condicionado-split"],
+    },
+    {
+        "slug": "ar-condicionado-e-maresia-vitoria-vila-velha",
+        "title": "Ar-condicionado e maresia na Grande Vitória",
+        "seo_title": "Ar-Condicionado e Maresia na Grande Vitória",
+        "crumb": "Maresia",
+        "desc": "Como a maresia afeta a condensadora do ar-condicionado em Vitória, Vila Velha e Guarapari e quais cuidados ajudam a proteger o aparelho.",
+        "icon": "wind", "read": 4,
+        "cta_title": "Mora perto da praia e quer instalar?",
+        "cta_msg": "Olá! Moro perto da praia e quero instalar ar-condicionado.",
+        "sections": [
+            ("Por que a maresia importa", "<p>A maresia é o ar carregado de sal que vem do mar. Em áreas externas, ela acelera a corrosão de peças metálicas. A condensadora, que fica ao ar livre, é a parte do ar-condicionado mais exposta a esse efeito.</p><p>Em cidades próximas ao mar, como Vitória, Vila Velha e Guarapari, esse é um fator a considerar na instalação e na manutenção.</p>"),
+            ("Cuidados que ajudam", "<ul><li><b>Posição da condensadora:</b> sempre que possível, em local protegido do vento direto vindo do mar, respeitando o espaço de ventilação.</li><li><b>Limpeza periódica:</b> a limpeza da unidade externa remove o acúmulo de sal e sujeira.</li><li><b>Inspeção:</b> verifique com regularidade sinais de ferrugem em suportes, parafusos e na carcaça.</li><li><b>Suportes adequados:</b> peças resistentes à corrosão duram mais em área litorânea.</li></ul>"),
+            ("Confira a garantia do fabricante", "<p>Alguns fabricantes têm condições específicas para equipamentos instalados perto do mar, e alguns modelos têm tratamento anticorrosão. Confira no manual e com o fabricante como isso funciona para o modelo que você pretende comprar.</p>"),
+        ],
+        "faq": [
+            ("A maresia estraga o ar-condicionado?", "Ela acelera a corrosão na unidade externa, mas cuidados como boa posição de instalação e limpeza periódica ajudam a prolongar a vida útil."),
+            ("Com que frequência limpar em área de praia?", "Siga o manual do fabricante e peça orientação a um profissional. Em área litorânea, a verificação costuma ser mais frequente."),
+        ],
+        "related": ["manutencao-e-limpeza-do-ar-condicionado", "onde-instalar-evaporadora-e-condensadora", "split-inverter-ou-convencional"],
+    },
+    {
+        "slug": "onde-instalar-evaporadora-e-condensadora",
+        "title": "Onde instalar a evaporadora e a condensadora",
+        "seo_title": "Onde Instalar a Evaporadora e a Condensadora",
+        "crumb": "Onde instalar",
+        "desc": "Dicas para escolher o melhor local para a unidade interna e a externa do split: circulação de ar, dreno, acesso e conforto.",
+        "icon": "home", "read": 3,
+        "cta_title": "Quer ajuda para definir os pontos de instalação?",
+        "sections": [
+            ("Unidade interna (evaporadora)", "<ul><li>Escolha uma parede com espaço livre ao redor, para o ar circular bem pelo ambiente.</li><li>Evite que o fluxo de ar bata direto em camas, sofás e mesas de trabalho.</li><li>Pense no caminho do dreno e da tubulação até a unidade externa: quanto mais direto, melhor.</li></ul>"),
+            ("Unidade externa (condensadora)", "<ul><li>Precisa de espaço livre ao redor para trocar calor com o ar. Locais fechados atrapalham o desempenho.</li><li>Prefira um ponto com acesso seguro para limpeza e manutenção.</li><li>Se possível, em área protegida de sol forte e chuva batendo direto, sem fechar a ventilação.</li><li>Atenção ao ruído e à saída de ar quente em relação a vizinhos e janelas.</li></ul>"),
+            ("Dreno e tubulação", "<p>A água que o aparelho condensa precisa escoar com caimento, sem pingar na fachada ou na janela do vizinho. A distância máxima e o desnível entre as unidades variam por modelo: consulte o manual do fabricante.</p>"),
+            ("A avaliação resolve", "<p>Cada imóvel tem suas limitações. A avaliação do local junta tudo isso e indica o melhor ponto para o seu caso.</p>"),
+        ],
+        "faq": [
+            ("Posso instalar a condensadora em uma varanda fechada?", "Locais com pouca ventilação prejudicam o desempenho. Avalie com um profissional antes de decidir."),
+            ("A evaporadora pode ficar sobre a cama?", "É melhor evitar o fluxo de ar direto sobre onde as pessoas ficam por muito tempo, para mais conforto."),
+        ],
+        "related": ["etapas-da-instalacao-de-ar-condicionado-split", "instalar-ar-condicionado-em-apartamento", "ar-condicionado-e-maresia-vitoria-vila-velha"],
+    },
+    {
+        "slug": "instalar-ar-condicionado-em-apartamento",
+        "title": "Como instalar ar-condicionado em apartamento",
+        "seo_title": "Como Instalar Ar-Condicionado em Apartamento",
+        "crumb": "Instalar em apartamento",
+        "desc": "O que verificar antes de instalar ar-condicionado em apartamento: regras do condomínio, fachada, dreno e local da condensadora.",
+        "icon": "building", "read": 4,
+        "cta_title": "Vai instalar em apartamento?",
+        "cta_msg": "Olá! Preciso instalar ar-condicionado em apartamento.",
+        "sections": [
+            ("Comece pelo condomínio", "<p>Antes de comprar o aparelho, consulte o síndico ou o regimento interno. Muitos condomínios têm regras sobre onde a condensadora pode ficar, sobre a aparência da fachada e sobre horários para obras. Alguns pedem comunicação ou autorização prévia.</p>"),
+            ("Pontos que mudam em apartamento", "<ul><li><b>Local da condensadora:</b> varanda, área técnica ou suporte na fachada, conforme o que o prédio permite.</li><li><b>Dreno:</b> a água não pode pingar na unidade de baixo nem na área comum.</li><li><b>Tubulação:</b> às vezes é preciso um caminho mais longo ou embutido.</li><li><b>Acesso:</b> instalações em fachada podem exigir equipamentos de segurança.</li></ul>"),
+            ("Prepare antes da visita", "<p>Leve ao conhecimento do instalador as regras do prédio e fotos do local pretendido. Isso evita retrabalho e ajuda a dar um orçamento mais preciso. Atendemos apartamentos em Vitória, Vila Velha, Serra e demais cidades da Grande Vitória.</p>"),
+        ],
+        "faq": [
+            ("Preciso de autorização do condomínio?", "Depende do regimento do seu prédio. Consulte o síndico antes de comprar e de agendar."),
+            ("Posso instalar em qualquer apartamento?", "Em geral sim, desde que haja um local viável para a condensadora e o dreno. A avaliação do local confirma."),
+        ],
+        "related": ["onde-instalar-evaporadora-e-condensadora", "etapas-da-instalacao-de-ar-condicionado-split", "quanto-custa-instalar-ar-condicionado-split"],
+    },
+    {
+        "slug": "manutencao-e-limpeza-do-ar-condicionado",
+        "title": "Manutenção e limpeza do ar-condicionado",
+        "seo_title": "Manutenção e Limpeza do Ar-Condicionado",
+        "crumb": "Manutenção e limpeza",
+        "desc": "Como cuidar do ar-condicionado: limpeza de filtros, sinais de que precisa de manutenção e quando chamar um profissional.",
+        "icon": "wrench", "read": 4,
+        "cta_title": "Precisa de manutenção no seu ar-condicionado?",
+        "cta_msg": "Olá! Quero agendar manutenção do meu ar-condicionado.",
+        "sections": [
+            ("O que você mesmo pode fazer", "<p>A limpeza dos filtros da unidade interna é simples e muito importante. Filtros sujos reduzem o fluxo de ar e o rendimento. O manual do fabricante indica como retirar e lavar, e com qual frequência. Em geral, a recomendação é fazer isso de tempos em tempos, mais vezes se o uso for intenso ou o ambiente tiver muita poeira.</p>"),
+            ("Quando chamar um profissional", "<ul><li>Mau cheiro ao ligar o aparelho.</li><li>Água pingando da unidade interna.</li><li>Aparelho resfriando menos que antes.</li><li>Ruídos diferentes na unidade interna ou externa.</li><li>Sinais de ferrugem na unidade externa, principalmente perto do mar.</li></ul>"),
+            ("Manutenção preventiva", "<p>A limpeza completa feita por profissional alcança partes que o usuário não alcança, como a serpentina e a bandeja de dreno. Fazer isso periodicamente ajuda a manter o desempenho e a evitar defeitos maiores. Peça orientação sobre a frequência ideal para o seu uso.</p>"),
+        ],
+        "faq": [
+            ("De quanto em quanto tempo devo limpar os filtros?", "Siga o manual do fabricante. Em geral, a limpeza é periódica e deve ser mais frequente com uso intenso ou muita poeira."),
+            ("Mau cheiro indica o quê?", "Pode indicar acúmulo de sujeira ou umidade na unidade interna. Uma limpeza profissional costuma resolver, mas vale checar a causa."),
+        ],
+        "related": ["ar-condicionado-e-maresia-vitoria-vila-velha", "split-inverter-ou-convencional", "etapas-da-instalacao-de-ar-condicionado-split"],
+    },
+]

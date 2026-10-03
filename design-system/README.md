@@ -1,4 +1,4 @@
-# 🎨 Design System - Climavitoria
+# 🎨 Design System - Vitória Clima
 
 **Sistema de Design Visual Corporativo Profissional**
 
@@ -171,7 +171,7 @@ Caption → 0.75rem  (12px) - Helper text, timestamps
 ```html
 <header class="bg-primary-600 text-white">
   <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
-    <h1 class="text-3xl font-bold">❄️ Climavitoria</h1>
+    <h1 class="text-3xl font-bold">❄️ Vitória Clima</h1>
     <nav class="space-x-8">
       <a href="#" class="hover:text-primary-200">Serviços</a>
       <a href="#" class="hover:text-primary-200">Sobre</a>
@@ -316,7 +316,8 @@ Os componentes estão em `src/components/`:
 │
 ├── tailwind.config.js           # Configuração customizada
 │
-└── index.html                   # Landing page (usa o Design System)
+├── style.css                    # Estilos do site (usa os tokens deste Design System)
+└── index.html                   # Página inicial (gerada por gerador/build.py)
 ```
 
 ---
@@ -376,7 +377,7 @@ Ao criar novos elementos:
 ## 🚀 Próximos Passos
 
 1. ✅ Design System criado
-2. ⏳ Usar Design System na landing page
+2. ✅ Design System aplicado no site (style.css) com paleta, tipografia e raios deste documento
 3. ⏳ Criar componentes adicionais conforme necessário (modais, tooltips, etc)
 4. ⏳ Documentação de acessibilidade
 5. ⏳ Guia de brand guidelines
@@ -393,5 +394,5 @@ Para dúvidas sobre o Design System:
 ---
 
 **Versão**: 1.0  
-**Último update**: 2024-05-01  
+**Último update**: 2026-10-03  
 **Status**: ✅ Pronto para uso
